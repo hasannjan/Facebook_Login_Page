@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook</title>
+    <style>
+
+        @font-face {
+            font-family: aileron;
+            src: url(/Facebook.html/aileron/Aileron-Black.otf);
+        }
+
+        @media(min-width:800px){
+            .container-1 {
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* justify-content: space-around; */
+            align-content: center;
+            padding-top: 10%;
+            padding-left: 100px;
+        }
+        }
+        body {
+            background-color: #F0F2F5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container-1 div{
+            /* border: 1px #ccc solid; */
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+        /* .container-1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            padding-top: 15%; 
+        }*/
+
+        .box-1{
+        
+            flex-basis: 600px;
+            width: 200px;
+        }
+
+        .box-2{
+            background-color: #ffffff;
+            flex-basis: 350px;
+            height: 315px;
+            width: 396px;
+            padding: 100px;
+            /* align-items: center; */
+        }
+
+        .fb_logo{
+            /* position: relative; */
+            margin: -28px;
+            height: 106px;
+            width: 306px;
+        }
+
+        .subheading{
+            width: 500px;
+            height: 84px;
+            padding: 0,0,20px;
+            color: #1C1E21;
+            font-size: 10px !important;
+        }
+
+        .fname{
+            border: 1px #ccc solid;
+            border-radius: 5px;
+            height: 15%;
+            width: 90%;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        .fname::placeholder{
+            font-family: Helvetica, Arial, sans-serif;
+            text-indent: 10px;
+        }
+
+        .password{
+            font-family: Helvetica, Arial, sans-serif;
+            border: 1px #ccc solid;
+            border-radius: 5px;
+            height: 15%;
+            width: 90%;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        .password::placeholder{
+            text-indent: 10px;
+        }
+
+        .login {
+            color: white;
+            background-color: #1877F2;
+            width: 364px;
+            height: 48px;
+            border: 1px #ccc solid;
+            border-radius: 10px;    
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            padding: 0px 16px;
+        }
+
+        .forgot{
+            
+            color:#1877F2;
+            font-family: Helvetica, Arial, sans-serif;
+            padding: 25%;
+            padding-left: 100px;
+        }
+
+        .create{
+            color: white;
+            background-color: #42B72A;
+            /* align-items: center; */
+            position: relative;
+            bottom: 25px;
+            left: 20%;
+            height: 48px;
+            width: 196px;
+            border: 1px #ccc solid;
+            border-radius: 10px; 
+            font-size: 17px;   
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .box-1 h2{
+            color: rgba(0,0,255,0.8);
+            font-size: 55px;
+            font-family: 'Franklin Gothic Medium';
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .box-1 p{
+            font-size: 20px; 
+            font-size: 30px;
+            bottom: 70%;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .bottom {            
+            position: relative;
+            font-size: 14px;
+            font-family: inherit;
+            color: #1C1E21;
+            text-decoration: none;
+            left: 50px;
+            top: 15px;
+        }
+
+        .bottom a{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <img class="fb_logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="">
+            <p class="subheadng">Facebook helps you connect and share with the people in your life.</p>
+          </div>
+        <div class="box-2">
+            <input type="text" class="fname" name="fname" placeholder="Email Address or Phone Number" size="35"><br>
+            <br>
+            <input type="password" class="password" name="password" placeholder="Password" size="35"><br>
+            <br>
+            <button class="login">Login</button>
+            <br>
+            <br>
+            <a href="" class="forgot">Forgotten Password?</a>
+            <hr>
+            <br>
+            <br>
+            <button class="create">Create New Account</button>
+            <p class="bottom"><b><a  href="">Create a page</a></b> for a celebrity, band or business</p>
+
+          </div>
+          
+          
+    </div>
+
+</body>
+</html>
